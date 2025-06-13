@@ -1,6 +1,6 @@
 name: Deploy Azure VM with Terraform
 
-on:
+on:  
   push:
     branches:
       - main
