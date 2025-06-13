@@ -4,7 +4,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "example" {
   name     = "rg-vm-example"
-  location = "Central India"
+  location = "Central India"  
 }
 
 resource "azurerm_virtual_network" "example" {
