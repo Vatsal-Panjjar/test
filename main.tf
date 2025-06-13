@@ -18,7 +18,7 @@ resource "azurerm_virtual_network" "vn-puru" {
 resource "azurerm_subnet" "sub-1" {
   name                 = "sub-1"
   resource_group_name  = azurerm_resource_group.Puru.name
-  virtual_network_name = azurerm_virtual_network.Puru.name
+  virtual_network_name = azurerm_virtual_network.vn-puru.name
   address_prefixes     = ["10.0.1.0/24"]
 }
 
