@@ -1,6 +1,6 @@
 provider "azurerm" {
   features {}
-}
+} #triggering action
 
 resource "azurerm_resource_group" "example" {
   name     = "rg-vm-example"
