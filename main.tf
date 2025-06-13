@@ -40,7 +40,7 @@ resource "azurerm_windows_virtual_machine" "Puru" {
   location            = azurerm_resource_group.Puru.location
   size                = "Standard_B1s"
   admin_username      = "Puru"
-  admin_password      = "rupupuru"
+  admin_password      = "Rupupuru@01"
   network_interface_ids = [azurerm_network_interface.nic.id]
 
   source_image_reference {
